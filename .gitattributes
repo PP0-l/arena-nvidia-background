@@ -1,0 +1,15 @@
+* text=auto
+
+*.cpp text eol=lf
+*.h text eol=lf
+*.cu text eol=lf
+*.cmake text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.ps1 text eol=crlf
+
+*.dll binary
+*.exe binary
+*.lib binary
+*.png binary
+*.mp4 binary
