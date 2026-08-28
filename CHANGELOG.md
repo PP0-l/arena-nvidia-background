@@ -1,9 +1,9 @@
-# Changelog
+# 更新记录
 
 ## 0.1.0
 
-- Initial FFGL 2 effect for Resolume Arena.
-- NVIDIA Video Effects SDK 0.7.6 AI Green Screen integration.
-- Quality/performance and person/chair modes.
-- GPU mask processing and premultiplied alpha output.
-- CUDA targets for RTX 20, 30, 40, and 50 series GPUs.
+- 首个适用于 Resolume Arena 的 FFGL 2 特效版本。
+- 集成 NVIDIA Video Effects SDK 0.7.6 AI Green Screen（AI 绿幕）。
+- 提供质量优先、性能优先、仅人物和人物加椅子模式。
+- 在 GPU 上处理遮罩并输出预乘 Alpha。
+- 支持 RTX 20、30、40 和 50 系列显卡的 CUDA 目标架构。
