@@ -8,6 +8,13 @@
 RTX 20、30、40 和 50 系列显卡的 CUDA 代码。每台电脑都必须安装与其 GPU 架构
 相匹配的 NVIDIA Video Effects 运行库和模型文件。
 
+## 效果预览
+
+![NVIDIA Background 在 Resolume Arena 中的实时人物抠像效果](docs/images/nvidia-background-arena-demo.png)
+
+上图展示了插件在 Resolume Arena 中对 USB 摄像头画面进行实时人物抠像，
+并输出透明背景的实际效果。棋盘格区域表示透明通道。
+
 ## 主要功能
 
 - 质量优先和性能优先两种推理模式
