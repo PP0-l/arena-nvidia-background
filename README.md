@@ -43,13 +43,29 @@ RTX 20、30、40 和 50 系列显卡的 CUDA 代码。每台电脑都必须安�
 
 ## 安装已编译插件
 
-将 `NVIDIA Background.dll` 复制到：
+### 第一步：安装 NVIDIA Video Effects SDK 0.7.6 运行环境
+
+打开 [NVIDIA Broadcast SDK 官方下载页面](https://www.nvidia.com/en-us/geforce/broadcasting/broadcast-sdk/resources/)，
+在 **Video Effects 0.7.6** 区域下载并安装与显卡系列对应的版本：
+
+- RTX 20 / Quadro RTX：选择 RTX 20 / Turing 版本
+- RTX 30：选择 RTX 30 / Ampere 版本
+- RTX 40：选择 RTX 40 / Ada 版本
+- RTX 50：选择 RTX 50 / Blackwell 版本
+
+这个安装包会提供插件运行所需的 NVIDIA DLL、依赖库和 AI 抠像模型。
+
+### 第二步：复制 NVIDIA Background 插件
+
+将 `NVIDIA Background.dll` 复制到以下目录：
 
 ```text
 %USERPROFILE%\Documents\Resolume Arena\Extra Effects
 ```
 
-重新启动 Arena，在“效果”面板中找到 `NVIDIA Background`，然后将它拖到摄像机或
+### 第三步：重新启动 Resolume Arena
+
+重新启动 Resolume Arena，在“效果”面板中找到 `NVIDIA Background`，然后将它拖到摄像机或
 视频片段上。可在下方放置另一个片段或图层，以确认插件是否正确输出透明通道。
 
 ## 克隆和编译
